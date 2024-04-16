@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.head {
+  text-align: center;
+  color: black;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 0 auto;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input,
+select,
+button {
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 5px;
+  background-color: #dbfbff;
+  color: black;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #81beff;
+}
+
+table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #000000;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #dbfbff;
+}
+
+.removeCheckbox {
+  text-align: center;
+}

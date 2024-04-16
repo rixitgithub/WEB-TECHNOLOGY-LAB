@@ -1,0 +1,14 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+table {
+  width: 50%;
+  border: 1px solid black;
+}
+
+th,
+td {
+  border: 1px solid black;
+  text-align: left;
+}
